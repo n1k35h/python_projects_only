@@ -23,10 +23,10 @@ def process_coins():
     """ Returns the total calculated from coins inserted. """
     print("Please insert coins.")
     total = int(input("How many pounds?: ")) * 1.00
-    total += int(input("How many fifty?: ")) * 0.50
-    total += int(input("How many twenty?: ")) * 0.20
-    total += int(input("How many ten?: ")) * 0.10
-    total += int(input("How many five?: ")) * 0.05
+    total += int(input("How many fifty pences?: ")) * 0.50
+    total += int(input("How many twenty pences?: ")) * 0.20
+    total += int(input("How many ten pences?: ")) * 0.10
+    total += int(input("How many five pences?: ")) * 0.05
     return total
 
 def is_transaction_successful(money_received, drink_cost):
@@ -61,7 +61,7 @@ while is_on:
         print(f"\nWater: {resources['water']}ml")
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
-        print(f"Cocao: {resources['cocoa']}g")
+        print(f"Cocoa: {resources['cocoa']}g")
         print(f"Chocolate Powder: {resources['chocolate powder']}g")
         print(f"Tea: {resources['tea']}g")
         print(f"Cup: {resources['cup']}")
