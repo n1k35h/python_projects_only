@@ -58,12 +58,29 @@ This project is a simulation of a coffee machine built using **Object-Oriented P
 
 ## Example Interaction
 
-```plaintext
-What would you like to drink? (espresso/latte/cappuccino): latte
-Please insert coins.
-How many quarters?: 4
-How many dimes?: 0
-How many nickels?: 0
-How many pennies?: 0
-Here is $1.0 in change.
-Here is your latte ☕. Enjoy!
+      What would you like to drink? (latte/espresso/coffee/cappuccino/tea/hot chocolate/hot water/hot milk/): latte
+      Please insert coins.
+
+      How many pounds?: 2
+      How many fifty pences?: 1
+      How many twenty pences?: 2
+      How many ten pences?: 2
+      How many five pences?: 0
+
+      Here is $0.6 in change.
+
+      Here is your latte ☕️. Enjoy!
+
+      What would you like to drink? (latte/espresso/coffee/cappuccino/tea/hot chocolate/hot water/hot milk/): report
+
+      Water: 2600ml
+      Milk: 2750ml
+      Coffee: 976g
+      Chocolate powder: 1000g
+      Tea: 990g
+      Cups: 998 cups
+
+      Money: $4.0
+
+      What would you like to drink? (latte/espresso/coffee/cappuccino/tea/hot chocolate/hot water/hot milk/): off
+      
